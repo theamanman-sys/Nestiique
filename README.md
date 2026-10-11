@@ -82,17 +82,19 @@ Change `--burgundy-700` and the beige ramp to re-skin the whole site.
 
 Everything is plain HTML. Common edits:
 
-- **Business details (address, phone, email, hours)** — search
-  `index.html` for `12 Rue des Archives`, `+33 (0)1 00 00 00 00`,
-  `hello@nestiique.com` and the `.hours` list.
+- **Business details (address, phone, email, hours)** — the address is
+  `1234 Street, Addis Ababa, Ethiopia` and the phone is
+  `+251 99 201 3589` (search `index.html` for those, plus
+  `hello@nestiique.com` and the `.hours` list).
 - **Menu items** — the `.menu-panel` lists (Brunch, Lunch & Dinner,
   Dessert & Bakery, Coffee & Tea, Wine & Cocktails).
 - **Imagery** — replace any `.svg` in `assets/img/` with a photo
   (`.jpg`/`.webp`) and update the matching `src` in `index.html`. The
   layout uses `object-fit: cover`, so any aspect ratio works.
 
-> The address, phone number, email addresses and menu prices are
-> placeholders — swap in the real details before launch.
+> The email addresses (`hello@nestiique.com`, `events@nestiique.com`)
+> and the menu prices are still placeholders — swap in the real details
+> before launch.
 
 ---
 
