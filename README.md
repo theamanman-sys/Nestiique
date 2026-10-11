@@ -92,9 +92,9 @@ Everything is plain HTML. Common edits:
   (`.jpg`/`.webp`) and update the matching `src` in `index.html`. The
   layout uses `object-fit: cover`, so any aspect ratio works.
 
-> The email addresses (`hello@nestiique.com`, `events@nestiique.com`)
-> and the menu prices are still placeholders — swap in the real details
-> before launch.
+> The email addresses (`hello@nestiique.com`, `events@nestiique.com`) are
+> still placeholders — swap in the real ones before launch. Menu prices
+> are shown in Ethiopian Birr (Br).
 
 ---
 
