@@ -7,6 +7,61 @@
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
   const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
 
+  /* ---------- Intro video: plays once, then fades away ---------- */
+  (function introVideo() {
+    const intro = $("#intro");
+    const video = $("#introVideo");
+    if (!intro || !video) return;
+
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let gone = false;
+    let safetyTimer = null;
+
+    function dismiss() {
+      if (gone) return;
+      gone = true;
+      if (safetyTimer) clearTimeout(safetyTimer);
+      intro.classList.add("is-gone");
+      try { video.pause(); } catch (e) {}
+      // Fully detach so the clip is never decoded or re-shown.
+      window.setTimeout(function () { intro.hidden = true; }, 1300);
+    }
+
+    function bail() { dismiss(); }
+
+    if (reduced.matches) { dismiss(); return; }
+
+    video.addEventListener("ended", dismiss);
+    video.addEventListener("error", bail);
+
+    // Skip button (added below for keyboard / mouse users).
+    const skip = document.createElement("button");
+    skip.type = "button";
+    skip.className = "intro__skip";
+    skip.textContent = "Skip intro";
+    skip.addEventListener("click", dismiss);
+    intro.appendChild(skip);
+
+    const play = video.play();
+    if (play && typeof play.catch === "function") {
+      // Autoplay blocked (or decode failure) — never trap the user behind it.
+      play.catch(bail);
+    }
+
+    // Backstop in case "ended" never fires (stalled decode, paused tab).
+    if (isFinite(video.duration) && video.duration > 0) {
+      safetyTimer = setTimeout(dismiss, (video.duration + 1) * 1000);
+    }
+    video.addEventListener("loadedmetadata", function () {
+      if (safetyTimer) clearTimeout(safetyTimer);
+      if (isFinite(video.duration) && video.duration > 0) {
+        safetyTimer = setTimeout(dismiss, (video.duration + 1) * 1000);
+      }
+    });
+
+    reduced.addEventListener("change", function (e) { if (e.matches) dismiss(); });
+  })();
+
   /* ---------- Header: height + scroll state ---------- */
   const header = $("#siteHeader");
 

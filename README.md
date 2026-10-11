@@ -40,18 +40,20 @@ Nestiique/
 ├─ css/
 │  └─ styles.css         # design tokens + every component
 ├─ js/
-│  └─ main.js            # nav, carousel, menu tabs, modal, forms, reveal
+│  └─ main.js            # nav, intro video, carousel, menu tabs, modal, forms, reveal
 ├─ assets/
-│  └─ img/               # hand-built SVG artwork (no external images)
-│     ├─ hero.svg
-│     ├─ reservations.svg
-│     ├─ dish-1..5.svg
-│     ├─ cafe.svg
-│     ├─ chicken.svg
-│     ├─ bakery.svg
-│     ├─ private-events.svg
-│     ├─ logo-mark.svg
-│     └─ favicon.svg
+│  ├─ img/               # hand-built SVG artwork (no external images)
+│  │  ├─ hero.svg
+│  │  ├─ reservations.svg
+│  │  ├─ dish-1..5.svg
+│  │  ├─ cafe.svg
+│  │  ├─ chicken.svg
+│  │  ├─ bakery.svg
+│  │  ├─ private-events.svg
+│  │  ├─ logo-mark.svg
+│  │  └─ favicon.svg
+│  └─ video/
+│     └─ intro.mp4       # opening clip (~730 KB, 560×560, ~6s)
 └─ tools/
    └─ serve.mjs          # tiny local static server for development
 ```
@@ -94,6 +96,11 @@ Everything is plain HTML. Common edits:
 - **Imagery** — replace any `.svg` in `assets/img/` with a photo
   (`.jpg`/`.webp`) and update the matching `src` in `index.html`. The
   layout uses `object-fit: cover`, so any aspect ratio works.
+- **Intro video** — swap `assets/video/intro.mp4` for a new clip; keep the
+  filename or edit the `src` on `#introVideo`. It is muted (browsers block
+  autoplay with sound), autoplays once per page load, then fades out. A
+  "Skip intro" button, a `duration + 1s` backstop timer and a
+  `prefers-reduced-motion` check all guarantee it can never trap a visitor.
 
 > The email addresses (`hello@nestiique.com`, `events@nestiique.com`) are
 > still placeholders — swap in the real ones before launch. Menu prices are
