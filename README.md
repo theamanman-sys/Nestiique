@@ -86,15 +86,18 @@ Everything is plain HTML. Common edits:
   `1234 Street, Addis Ababa, Ethiopia` and the phone is
   `+251 99 201 3589` (search `index.html` for those, plus
   `hello@nestiique.com` and the `.hours` list).
-- **Menu items** — the `.menu-panel` lists (Brunch, Lunch & Dinner,
-  Dessert & Bakery, Coffee & Tea, Wine & Cocktails).
+- **Menu items** — the `.menu-panel` lists, grouped into seven tabs:
+  Breakfast, Healthy & Fasting, Snacks & Extras, Meals & Sandwiches,
+  Fresh Pressed Juices, Coffee & Tea, Refresh & Pastry. Long panels use
+  `<h3 class="menu-group">` headings to break them into sections (e.g.
+  *Hot*, *Teas*, *Herbal*, *Cold*).
 - **Imagery** — replace any `.svg` in `assets/img/` with a photo
   (`.jpg`/`.webp`) and update the matching `src` in `index.html`. The
   layout uses `object-fit: cover`, so any aspect ratio works.
 
 > The email addresses (`hello@nestiique.com`, `events@nestiique.com`) are
-> still placeholders — swap in the real ones before launch. Menu prices
-> are shown in Ethiopian Birr (Br).
+> still placeholders — swap in the real ones before launch. Menu prices are
+> in Ethiopian Birr (Br) and are inclusive of VAT & service charge.
 
 ---
 
