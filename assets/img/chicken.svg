@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Chickens turning on the rotisserie over hardwood embers">
+  <defs>
+    <linearGradient id="kbg2" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#4E1523"/>
+      <stop offset="1" stop-color="#1C070E"/>
+    </linearGradient>
+    <radialGradient id="kfire" cx="0.5" cy="0.72" r="0.5">
+      <stop offset="0" stop-color="#F6C271" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#C9762A" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#C9762A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kvig2" cx="50%" cy="45%" r="76%">
+      <stop offset="0" stop-color="#9C3446" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0C0206" stop-opacity="0.78"/>
+    </radialGradient>
+    <filter id="kgrain2">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#kbg2)"/>
+  <circle cx="600" cy="620" r="470" fill="url(#kfire)"/>
+
+  <!-- stone hearth arch -->
+  <path d="M240 760V420a360 360 0 0 1 720 0v340z" fill="#3A0F1B" stroke="#B79E76" stroke-width="2.5"/>
+  <path d="M300 760V430a300 300 0 0 1 600 0v330z" fill="#240A11"/>
+  <g fill="none" stroke="#B79E76" stroke-width="1.4" opacity="0.28">
+    <path d="M340 760V440a260 260 0 0 1 520 0v320"/>
+    <path d="M600 130v630"/>
+  </g>
+
+  <!-- embers -->
+  <g>
+    <ellipse cx="600" cy="748" rx="250" ry="70" fill="#7A2033" opacity="0.6"/>
+    <g fill="#D98A34" opacity="0.85">
+      <circle cx="490" cy="742" r="10"/><circle cx="540" cy="758" r="8"/>
+      <circle cx="600" cy="748" r="11"/><circle cx="660" cy="760" r="9"/>
+      <circle cx="710" cy="744" r="10"/>
+    </g>
+    <g fill="#F6D08A">
+      <circle cx="520" cy="740" r="5"/><circle cx="610" cy="736" r="6"/><circle cx="688" cy="748" r="5"/>
+    </g>
+  </g>
+
+  <!-- spit -->
+  <g>
+    <rect x="330" y="470" width="540" height="14" rx="7" fill="#B79E76"/>
+    <circle cx="330" cy="477" r="30" fill="none" stroke="#B79E76" stroke-width="8"/>
+    <circle cx="870" cy="477" r="30" fill="none" stroke="#B79E76" stroke-width="8"/>
+  </g>
+
+  <!-- chickens on the spit -->
+  <g>
+    <g>
+      <ellipse cx="470" cy="500" rx="72" ry="88" fill="#C98A45"/>
+      <ellipse cx="470" cy="492" rx="60" ry="76" fill="#DDA35A"/>
+      <path d="M410 452q60-40 120 0-30 26-120 0z" fill="#EFC078" opacity="0.7"/>
+      <path d="M400 470q-30 40-6 90 30-24 34-90z" fill="#B4712C"/>
+      <path d="M540 470q30 40 6 90-30-24-34-90z" fill="#B4712C"/>
+      <path d="M452 584q18 26 36 0z" fill="#E2C79A"/>
+    </g>
+    <g>
+      <ellipse cx="730" cy="500" rx="72" ry="88" fill="#C1833D"/>
+      <ellipse cx="730" cy="492" rx="60" ry="76" fill="#D99A52"/>
+      <path d="M670 452q60-40 120 0-30 26-120 0z" fill="#EFC078" opacity="0.6"/>
+      <path d="M660 470q-30 40-6 90 30-24 34-90z" fill="#A96A27"/>
+      <path d="M800 470q30 40 6 90-30-24-34-90z" fill="#A96A27"/>
+      <path d="M712 584q18 26 36 0z" fill="#E2C79A"/>
+    </g>
+  </g>
+
+  <!-- dripping jus -->
+  <g fill="#8A3A20" opacity="0.7">
+    <ellipse cx="508" cy="588" rx="6" ry="14"/>
+    <ellipse cx="768" cy="592" rx="6" ry="14"/>
+  </g>
+
+  <!-- hanging pans + herbs -->
+  <g>
+    <path d="M120 210h300" stroke="#B79E76" stroke-width="4" opacity="0.6"/>
+    <g fill="#240A11" stroke="#B79E76" stroke-width="2">
+      <circle cx="180" cy="300" r="34"/><circle cx="280" cy="320" r="28"/><circle cx="370" cy="298" r="30"/>
+    </g>
+    <g stroke="#B79E76" stroke-width="3" opacity="0.7">
+      <path d="M180 266v34M280 292v28M370 268v30"/>
+    </g>
+    <g stroke="#7E8A5E" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.85">
+      <path d="M900 190q30-40 70-40M900 190q20-50 10-80"/>
+    </g>
+    <g fill="#7E8A5E" opacity="0.7">
+      <ellipse cx="946" cy="146" rx="22" ry="12" transform="rotate(20 946 146)"/>
+      <ellipse cx="912" cy="118" rx="22" ry="12" transform="rotate(-30 912 118)"/>
+    </g>
+  </g>
+
+  <!-- steam -->
+  <g stroke="#E9DECB" stroke-width="5" fill="none" opacity="0.22" stroke-linecap="round">
+    <path d="M520 360c-26-40 26-60 0-100"/>
+    <path d="M680 350c-26-40 26-60 0-100"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#kvig2)"/>
+  <rect width="1200" height="900" filter="url(#kgrain2)" opacity="0.05"/>
+</svg>

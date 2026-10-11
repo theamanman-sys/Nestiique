@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Loaves cooling on the rack beside the wood-fired oven">
+  <defs>
+    <linearGradient id="obg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#F8F2E7"/>
+      <stop offset="1" stop-color="#E0D0B6"/>
+    </linearGradient>
+    <radialGradient id="ooven" cx="0.5" cy="0.6" r="0.6">
+      <stop offset="0" stop-color="#F6C271" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#D98A34" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#D98A34" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ovig" cx="50%" cy="42%" r="76%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7A5C36" stop-opacity="0.26"/>
+    </radialGradient>
+    <filter id="ograin">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#obg)"/>
+
+  <!-- tiled wall -->
+  <g stroke="#CDB894" stroke-width="1.2" opacity="0.45">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/>
+    <path d="M120 0V540M360 0V540M600 0V540M840 0V540M1080 0V540"/>
+  </g>
+
+  <!-- rack with loaves -->
+  <g>
+    <rect x="60" y="200" width="420" height="12" rx="5" fill="#8A6B45"/>
+    <g fill="#C79A56" stroke="#A9762F" stroke-width="2">
+      <ellipse cx="130" cy="178" rx="52" ry="34"/>
+      <ellipse cx="250" cy="170" rx="58" ry="38"/>
+      <ellipse cx="370" cy="178" rx="52" ry="34"/>
+    </g>
+    <g stroke="#EFE0BE" stroke-width="4" stroke-linecap="round">
+      <path d="M104 172q26-14 52 0M218 162q32-16 64 0M344 172q26-14 52 0"/>
+    </g>
+    <rect x="60" y="330" width="420" height="12" rx="5" fill="#8A6B45"/>
+    <g fill="#BE8F49" stroke="#A9762F" stroke-width="2">
+      <rect x="90" y="288" width="150" height="44" rx="22" transform="rotate(-6 165 310)"/>
+      <rect x="270" y="288" width="160" height="44" rx="22" transform="rotate(5 350 310)"/>
+    </g>
+    <g stroke="#EFE0BE" stroke-width="4" stroke-linecap="round">
+      <path d="M120 300l24 24M170 296l24 24M300 300l24 24M350 296l24 24"/>
+    </g>
+  </g>
+
+  <!-- wood-fired oven -->
+  <g>
+    <path d="M660 760V430a270 270 0 0 1 540 0v330z" fill="#A9762F"/>
+    <path d="M660 760V430a270 270 0 0 1 540 0v330z" fill="none" stroke="#8A5D22" stroke-width="3"/>
+    <g stroke="#8A5D22" stroke-width="2" opacity="0.5">
+      <path d="M720 760V446a210 210 0 0 1 420 0v314"/>
+      <path d="M840 200v560M1020 200v560"/>
+      <path d="M690 470h510M700 590h490"/>
+    </g>
+    <path d="M790 760V520a130 130 0 0 1 260 0v240z" fill="#37120E"/>
+    <path d="M818 760V530a102 102 0 0 1 204 0v230z" fill="#240A11"/>
+    <ellipse cx="920" cy="740" rx="180" ry="80" fill="url(#ooven)"/>
+    <ellipse cx="920" cy="752" rx="90" ry="26" fill="#D98A34" opacity="0.8"/>
+    <ellipse cx="920" cy="756" rx="52" ry="16" fill="#F6D08A" opacity="0.9"/>
+  </g>
+
+  <!-- baker's peel with loaf -->
+  <g transform="rotate(16 560 700)">
+    <rect x="470" y="690" width="360" height="16" rx="8" fill="#8A6B45"/>
+    <ellipse cx="470" cy="698" rx="70" ry="40" fill="#A9762F"/>
+    <ellipse cx="470" cy="694" rx="58" ry="32" fill="#B98F52"/>
+    <ellipse cx="470" cy="684" rx="46" ry="24" fill="#C79A56"/>
+    <path d="M436 676q34-16 68 0" fill="none" stroke="#EFE0BE" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- basket on floor -->
+  <g transform="translate(60 660)">
+    <path d="M0 40h180l-20 110a24 24 0 0 1-24 20H44a24 24 0 0 1-24-20z" fill="#A9762F"/>
+    <path d="M0 40h180l-6 34H6z" fill="#8A5D22"/>
+    <g stroke="#C79A56" stroke-width="4" opacity="0.7">
+      <path d="M30 74v96M70 74v100M110 74v100M150 74v96"/>
+    </g>
+    <ellipse cx="60" cy="30" rx="56" ry="30" fill="#C79A56"/>
+    <ellipse cx="130" cy="26" rx="48" ry="28" fill="#BE8F49"/>
+  </g>
+
+  <!-- flour dust -->
+  <g fill="#FFFFFF" opacity="0.55">
+    <circle cx="640" cy="300" r="4"/><circle cx="676" cy="342" r="3"/><circle cx="610" cy="380" r="3"/>
+    <circle cx="1120" cy="260" r="4"/><circle cx="1160" cy="320" r="3"/><circle cx="1090" cy="360" r="3"/>
+  </g>
+
+  <rect width="1200" height="900" fill="url(#ovig)"/>
+  <rect width="1200" height="900" filter="url(#ograin)" opacity="0.045"/>
+</svg>

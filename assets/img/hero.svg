@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="The Nestiique dining room at dusk, lit by lamplight and the glow of the rotisserie">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="0.45" y2="1">
+      <stop offset="0" stop-color="#57202F"/>
+      <stop offset="0.5" stop-color="#370B14"/>
+      <stop offset="1" stop-color="#17060B"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.68" cy="0.66" r="0.6">
+      <stop offset="0" stop-color="#DE8F36" stop-opacity="0.6"/>
+      <stop offset="0.45" stop-color="#8A3A20" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8A3A20" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hwin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C57E" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#C9762A" stop-opacity="0.1"/>
+    </linearGradient>
+    <radialGradient id="hlamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F9D89A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F9D89A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hvig" cx="0.5" cy="0.45" r="0.78">
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080105" stop-opacity="0.8"/>
+    </radialGradient>
+    <filter id="hgrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#hbg)"/>
+  <rect width="1600" height="900" fill="url(#hglow)"/>
+
+  <!-- arched windows -->
+  <g fill="url(#hwin)" stroke="#B79E76" stroke-width="2" opacity="0.9">
+    <path d="M170 706V360a150 150 0 0 1 300 0v346z"/>
+    <path d="M560 706V360a150 150 0 0 1 300 0v346z"/>
+  </g>
+  <g stroke="#B79E76" stroke-width="1.4" opacity="0.35">
+    <path d="M320 210v496M170 470h300M560 470h300M710 210v496"/>
+  </g>
+
+  <!-- hearth / rotisserie -->
+  <g>
+    <path d="M1110 706V486a150 150 0 0 1 300 0v220z" fill="#2A0F19" stroke="#B79E76" stroke-width="2"/>
+    <path d="M1146 706V502a114 114 0 0 1 228 0v204z" fill="#4A1420"/>
+    <ellipse cx="1260" cy="700" rx="132" ry="44" fill="#D98A34" opacity="0.65"/>
+    <ellipse cx="1260" cy="706" rx="86" ry="28" fill="#F6D08A" opacity="0.85"/>
+    <g stroke="#1A060C" stroke-width="10" stroke-linecap="round">
+      <path d="M1170 566h180"/>
+    </g>
+    <g fill="#C98A45">
+      <ellipse cx="1210" cy="566" rx="30" ry="34"/>
+      <ellipse cx="1262" cy="566" rx="30" ry="34"/>
+      <ellipse cx="1314" cy="566" rx="30" ry="34"/>
+    </g>
+  </g>
+
+  <!-- pendant lamps -->
+  <g>
+    <line x1="250" y1="0" x2="250" y2="250" stroke="#B79E76" stroke-width="1.6" opacity="0.5"/>
+    <path d="M204 300h92l-20-50h-52z" fill="#2A0F19" stroke="#B79E76" stroke-width="1.4"/>
+    <circle cx="250" cy="312" r="66" fill="url(#hlamp)"/>
+    <circle cx="250" cy="306" r="8" fill="#F9D89A"/>
+    <line x1="960" y1="0" x2="960" y2="210" stroke="#B79E76" stroke-width="1.6" opacity="0.5"/>
+    <path d="M914 260h92l-20-50h-52z" fill="#2A0F19" stroke="#B79E76" stroke-width="1.4"/>
+    <circle cx="960" cy="272" r="62" fill="url(#hlamp)"/>
+    <circle cx="960" cy="266" r="8" fill="#F9D89A"/>
+  </g>
+
+  <!-- long table -->
+  <rect x="0" y="706" width="1600" height="200" fill="#150710"/>
+  <rect x="0" y="706" width="1600" height="5" fill="#6E1B2A" opacity="0.85"/>
+
+  <!-- table setting -->
+  <g>
+    <g fill="#E9DECB" opacity="0.5">
+      <ellipse cx="250" cy="742" rx="52" ry="15"/>
+      <ellipse cx="560" cy="748" rx="52" ry="15"/>
+      <ellipse cx="880" cy="746" rx="52" ry="15"/>
+      <ellipse cx="1200" cy="748" rx="52" ry="15"/>
+    </g>
+    <!-- candles -->
+    <g>
+      <rect x="416" y="690" width="10" height="52" fill="#E9DECB" opacity="0.85"/>
+      <circle cx="421" cy="676" r="34" fill="url(#hlamp)"/>
+      <ellipse cx="421" cy="682" rx="4" ry="8" fill="#F9D89A"/>
+      <rect x="1046" y="694" width="10" height="48" fill="#E9DECB" opacity="0.85"/>
+      <circle cx="1051" cy="680" r="32" fill="url(#hlamp)"/>
+      <ellipse cx="1051" cy="686" rx="4" ry="8" fill="#F9D89A"/>
+    </g>
+    <!-- glasses -->
+    <g fill="none" stroke="#E9DECB" stroke-width="2" opacity="0.35">
+      <path d="M676 706v-34M676 672a16 16 0 0 1 32 0M692 706v-34"/>
+      <path d="M1384 708v-32M1384 676a15 15 0 0 1 30 0M1399 708v-32"/>
+    </g>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#hvig)"/>
+  <rect width="1600" height="900" filter="url(#hgrain)" opacity="0.05"/>
+</svg>

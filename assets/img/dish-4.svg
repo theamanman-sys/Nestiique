@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-label="A basket of sourdough, croissants and pain au chocolat">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#F8F2E7"/>
+      <stop offset="1" stop-color="#E2D2B7"/>
+    </linearGradient>
+    <radialGradient id="bvig" cx="50%" cy="40%" r="74%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#7A5C36" stop-opacity="0.24"/>
+    </radialGradient>
+    <radialGradient id="bshadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6E1B2A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#6E1B2A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bgrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1125" fill="url(#bbg)"/>
+  <ellipse cx="450" cy="860" rx="400" ry="170" fill="url(#bshadow)"/>
+  <rect width="900" height="1125" fill="url(#bvig)"/>
+
+  <!-- baguette behind -->
+  <g transform="rotate(-32 300 640)">
+    <rect x="180" y="620" width="360" height="86" rx="43" fill="#C09242"/>
+    <g stroke="#EFE0BE" stroke-width="5" stroke-linecap="round">
+      <path d="M250 630l40 66M330 630l40 66M410 630l40 66"/>
+    </g>
+  </g>
+
+  <!-- basket -->
+  <path d="M180 690h540l-52 250a40 40 0 0 1-40 32H272a40 40 0 0 1-40-32z" fill="#A9762F"/>
+  <path d="M180 690h540l-10 48H190z" fill="#8A5D22"/>
+  <g stroke="#C79A56" stroke-width="5" opacity="0.7">
+    <path d="M232 738v244M292 738v252M352 738v258M412 738v258M472 738v258M532 738v252M592 738v244M652 738v236"/>
+    <path d="M196 786h508M204 838h492M212 890h476M220 942h460"/>
+  </g>
+
+  <!-- top rim breads -->
+  <g>
+    <ellipse cx="300" cy="676" rx="92" ry="52" fill="#C79A56"/>
+    <path d="M222 668q78-24 156 0" fill="none" stroke="#EFE0BE" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="300" cy="672" rx="92" ry="46" fill="none" stroke="#A9762F" stroke-width="2" opacity="0.5"/>
+  </g>
+  <g>
+    <ellipse cx="470" cy="668" rx="86" ry="50" fill="#BE8F49"/>
+    <path d="M400 660q70-22 140 0" fill="none" stroke="#EFE0BE" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g>
+    <ellipse cx="620" cy="682" rx="74" ry="46" fill="#C79A56"/>
+    <path d="M560 674q60-20 120 0" fill="none" stroke="#EFE0BE" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- croissant in front -->
+  <g transform="translate(0 40)">
+    <path d="M360 800c-40-46-42-96-8-118 20-14 40 2 40 24 0 26-12 60-32 94z" fill="#D2A055"/>
+    <path d="M360 800c40-46 42-96 8-118-20-14-40 2-40 24 0 26 12 60 32 94z" fill="#C79348"/>
+    <path d="M300 686c-34-20-64-14-72 12-6 20 12 30 30 24 22-8 42-24 42-36z" fill="#D2A055"/>
+    <path d="M420 686c34-20 64-14 72 12 6 20-12 30-30 24-22-8-42-24-42-36z" fill="#C79348"/>
+    <g stroke="#A9762F" stroke-width="3" fill="none" opacity="0.6">
+      <path d="M352 742q10 26 8 58M300 692q22 6 44 44M420 692q-22 6-44 44"/>
+    </g>
+  </g>
+
+  <!-- wheat sprigs -->
+  <g stroke="#B79E76" stroke-width="3.6" fill="none" stroke-linecap="round">
+    <path d="M146 900q-14-70 10-124"/>
+    <path d="M150 830q14 4 20-6M152 800q14 4 20-6M156 772q14 4 20-6M158 846q-16 2-22-8M160 818q-16 2-22-8M164 790q-16 2-22-8"/>
+  </g>
+
+  <!-- flour dust -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <circle cx="700" cy="580" r="3"/><circle cx="726" cy="614" r="2"/>
+    <circle cx="214" cy="600" r="3"/><circle cx="188" cy="640" r="2"/>
+  </g>
+
+  <rect width="900" height="1125" filter="url(#bgrain)" opacity="0.05"/>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-label="A slice of vanilla cheesecake with macerated berries">
+  <defs>
+    <linearGradient id="cbg2" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#F8F2E7"/>
+      <stop offset="1" stop-color="#E2D2B7"/>
+    </linearGradient>
+    <radialGradient id="cvig2" cx="50%" cy="40%" r="74%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#7A5C36" stop-opacity="0.24"/>
+    </radialGradient>
+    <radialGradient id="cshadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6E1B2A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#6E1B2A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cgrain2">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1125" fill="url(#cbg2)"/>
+  <ellipse cx="450" cy="840" rx="400" ry="160" fill="url(#cshadow)"/>
+  <rect width="900" height="1125" fill="url(#cvig2)"/>
+
+  <!-- plate -->
+  <ellipse cx="450" cy="780" rx="350" ry="150" fill="#FBF8F1" stroke="#CBB693" stroke-width="2.5"/>
+  <ellipse cx="450" cy="780" rx="292" ry="118" fill="none" stroke="#E1D2B8" stroke-width="1.6"/>
+
+  <!-- berry coulis -->
+  <path d="M250 792q60-46 210-40t212 40q-70 40-212 40t-210-40z" fill="#7A2033" opacity="0.85"/>
+
+  <!-- cheesecake slice -->
+  <path d="M300 760 L620 760 L512 470 L400 470 Z" fill="#F8F1E2"/>
+  <path d="M300 760 L620 760 L606 726 L314 726 Z" fill="#CBA46B"/>
+  <path d="M300 760 L620 760 L612 748 L308 748 Z" fill="#B98F52"/>
+  <!-- top berry layer -->
+  <path d="M400 470 L512 470 L518 500 L394 500 Z" fill="#8A2E3E"/>
+  <path d="M400 470 L512 470 L513 480 L399 480 Z" fill="#6E1B2A"/>
+  <!-- cream highlight -->
+  <path d="M400 500 L394 726 L430 726 L432 500 Z" fill="#FFFBF2" opacity="0.7"/>
+
+  <!-- berries on top -->
+  <g>
+    <circle cx="418" cy="452" r="26" fill="#6E1B2A"/>
+    <circle cx="470" cy="440" r="30" fill="#7A2033"/>
+    <circle cx="516" cy="456" r="24" fill="#5A1421"/>
+    <circle cx="452" cy="470" r="20" fill="#85283A"/>
+    <g fill="#FFFFFF" opacity="0.45">
+      <circle cx="410" cy="444" r="6"/><circle cx="462" cy="430" r="7"/><circle cx="508" cy="448" r="5"/>
+    </g>
+  </g>
+
+  <!-- mint leaf -->
+  <path d="M540 470q30-16 52 4-24 22-52 24z" fill="#7E8A5E"/>
+  <path d="M540 470q28 8 52 4" fill="none" stroke="#5E6A42" stroke-width="2.4"/>
+
+  <!-- fork -->
+  <g fill="#6E1B2A" opacity="0.9">
+    <rect x="734" y="700" width="9" height="40"/>
+    <rect x="730" y="732" width="17" height="200" rx="8"/>
+    <rect x="726" y="662" width="25" height="46" rx="6"/>
+    <rect x="729" y="640" width="4" height="28"/><rect x="736" y="636" width="4" height="32"/><rect x="743" y="640" width="4" height="28"/>
+  </g>
+
+  <rect width="900" height="1125" filter="url(#cgrain2)" opacity="0.05"/>
+</svg>

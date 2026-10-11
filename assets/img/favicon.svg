@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nestiique">
+  <rect width="64" height="64" rx="12" fill="#6E1B2A"/>
+  <g fill="none" stroke="#F6EFE4" stroke-width="1.1" opacity="0.9">
+    <circle cx="32" cy="32" r="24"/>
+    <circle cx="32" cy="32" r="20" stroke-width="0.6" opacity="0.6"/>
+  </g>
+  <path d="M24 41V23l16 18V23" fill="none" stroke="#F6EFE4" stroke-width="2.4" stroke-linecap="square"/>
+  <path d="M32 12.5l1.7 3-1.7 3-1.7-3z" fill="#F6EFE4" opacity="0.9"/>
+</svg>

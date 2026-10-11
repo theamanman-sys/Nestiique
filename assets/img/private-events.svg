@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A long table laid for a private dinner by candlelight">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#4E1523"/>
+      <stop offset="1" stop-color="#1A060C"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.6" r="0.55">
+      <stop offset="0" stop-color="#F0C078" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#F0C078" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F9D89A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F9D89A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pvig" cx="0.5" cy="0.45" r="0.78">
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#080105" stop-opacity="0.82"/>
+    </radialGradient>
+    <filter id="pgrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#pbg)"/>
+  <rect width="1600" height="900" fill="url(#pglow)"/>
+
+  <!-- pendant lamps -->
+  <g>
+    <g>
+      <line x1="360" y1="0" x2="360" y2="180" stroke="#B79E76" stroke-width="1.6" opacity="0.5"/>
+      <path d="M314 230h92l-20-50h-52z" fill="#2A0F19" stroke="#B79E76" stroke-width="1.4"/>
+      <circle cx="360" cy="242" r="60" fill="url(#plamp)"/>
+      <circle cx="360" cy="236" r="8" fill="#F9D89A"/>
+    </g>
+    <g>
+      <line x1="800" y1="0" x2="800" y2="140" stroke="#B79E76" stroke-width="1.6" opacity="0.5"/>
+      <path d="M754 190h92l-20-50h-52z" fill="#2A0F19" stroke="#B79E76" stroke-width="1.4"/>
+      <circle cx="800" cy="202" r="60" fill="url(#plamp)"/>
+      <circle cx="800" cy="196" r="8" fill="#F9D89A"/>
+    </g>
+    <g>
+      <line x1="1240" y1="0" x2="1240" y2="180" stroke="#B79E76" stroke-width="1.6" opacity="0.5"/>
+      <path d="M1194 230h92l-20-50h-52z" fill="#2A0F19" stroke="#B79E76" stroke-width="1.4"/>
+      <circle cx="1240" cy="242" r="60" fill="url(#plamp)"/>
+      <circle cx="1240" cy="236" r="8" fill="#F9D89A"/>
+    </g>
+  </g>
+
+  <!-- back wall arches -->
+  <g fill="#3A0F1B" stroke="#B79E76" stroke-width="1.6" opacity="0.5">
+    <path d="M120 560V400a90 90 0 0 1 180 0v160z"/>
+    <path d="M1300 560V400a90 90 0 0 1 180 0v160z"/>
+  </g>
+
+  <!-- chairs (silhouettes) -->
+  <g fill="#17060B">
+    <rect x="300" y="470" width="86" height="150" rx="10"/>
+    <rect x="300" y="470" width="86" height="30" rx="8"/>
+    <rect x="560" y="470" width="86" height="150" rx="10"/>
+    <rect x="560" y="470" width="86" height="30" rx="8"/>
+    <rect x="954" y="470" width="86" height="150" rx="10"/>
+    <rect x="954" y="470" width="86" height="30" rx="8"/>
+    <rect x="1214" y="470" width="86" height="150" rx="10"/>
+    <rect x="1214" y="470" width="86" height="30" rx="8"/>
+  </g>
+
+  <!-- long table with cloth -->
+  <g>
+    <path d="M180 600h1240l120 220H60z" fill="#E9DECB"/>
+    <path d="M180 600h1240l14 26H166z" fill="#F5EEE2"/>
+    <path d="M60 820h1480l6 24H54z" fill="#DCCDB2"/>
+    <g opacity="0.5" stroke="#CDB894" stroke-width="1">
+      <path d="M420 626l-52 194M620 626l-36 194M820 626l-20 194M1020 626l-4 194M1220 626l12 194"/>
+    </g>
+  </g>
+
+  <!-- place settings -->
+  <g fill="#FBF7F0" stroke="#CBB693" stroke-width="1.6">
+    <ellipse cx="330" cy="660" rx="52" ry="18"/>
+    <ellipse cx="630" cy="668" rx="52" ry="18"/>
+    <ellipse cx="930" cy="668" rx="52" ry="18"/>
+    <ellipse cx="1230" cy="660" rx="52" ry="18"/>
+  </g>
+  <g fill="none" stroke="#B79E76" stroke-width="2" opacity="0.5">
+    <ellipse cx="330" cy="660" rx="34" ry="10"/>
+    <ellipse cx="630" cy="668" rx="34" ry="10"/>
+    <ellipse cx="930" cy="668" rx="34" ry="10"/>
+    <ellipse cx="1230" cy="660" rx="34" ry="10"/>
+  </g>
+
+  <!-- glasses -->
+  <g fill="none" stroke="#E9DECB" stroke-width="2" opacity="0.55">
+    <path d="M386 648v-30M386 618a14 14 0 0 1 28 0M400 648v-30"/>
+    <path d="M686 656v-30M686 626a14 14 0 0 1 28 0M700 656v-30"/>
+    <path d="M986 656v-30M986 626a14 14 0 0 1 28 0M1000 656v-30"/>
+    <path d="M1286 648v-30M1286 618a14 14 0 0 1 28 0M1300 648v-30"/>
+  </g>
+
+  <!-- candelabra -->
+  <g>
+    <rect x="766" y="600" width="10" height="70" fill="#E9DECB"/>
+    <circle cx="771" cy="588" r="40" fill="url(#plamp)"/>
+    <ellipse cx="771" cy="594" rx="4" ry="9" fill="#F9D89A"/>
+    <rect x="1046" y="612" width="10" height="58" fill="#E9DECB"/>
+    <circle cx="1051" cy="600" r="36" fill="url(#plamp)"/>
+    <ellipse cx="1051" cy="606" rx="4" ry="9" fill="#F9D89A"/>
+    <rect x="470" y="616" width="10" height="54" fill="#E9DECB"/>
+    <circle cx="475" cy="604" r="34" fill="url(#plamp)"/>
+    <ellipse cx="475" cy="610" rx="4" ry="8" fill="#F9D89A"/>
+  </g>
+
+  <!-- floral centrepiece -->
+  <g>
+    <path d="M880 628h60l-8 44h-44z" fill="#6E1B2A"/>
+    <g stroke="#7E8A5E" stroke-width="4" fill="none" stroke-linecap="round">
+      <path d="M910 628q-24-40-6-74M910 628q22-40 8-72M910 628q-4-46 26-66"/>
+    </g>
+    <g fill="#7E8A5E" opacity="0.8">
+      <ellipse cx="892" cy="562" rx="18" ry="10" transform="rotate(-30 892 562)"/>
+      <ellipse cx="930" cy="566" rx="18" ry="10" transform="rotate(28 930 566)"/>
+    </g>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#pvig)"/>
+  <rect width="1600" height="900" filter="url(#pgrain)" opacity="0.05"/>
+</svg>
