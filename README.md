@@ -101,6 +101,9 @@ Everything is plain HTML. Common edits:
   autoplay with sound), autoplays once per page load, then fades out. A
   "Skip intro" button, a `duration + 1s` backstop timer and a
   `prefers-reduced-motion` check all guarantee it can never trap a visitor.
+  The backdrop is the `--intro-bg` token in `css/styles.css`, sampled from
+  the clip's own border colour (`#CCC1A5`) so the letterboxing around the
+  square clip is invisible. Re-sample and update it if you swap the clip.
 
 > The email addresses (`hello@nestiique.com`, `events@nestiique.com`) are
 > still placeholders — swap in the real ones before launch. Menu prices are
