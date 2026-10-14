@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Matte black ceramic mug with gold trim">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3" stroke-linecap="square">
+    <path d="M300 200h170v210a30 30 0 0 1-30 30H330a30 30 0 0 1-30-30z"/>
+    <path d="M470 240h34a52 52 0 0 1 0 104h-34"/>
+    <path d="M300 236h170"/>
+  </g>
+  <g stroke="#C5A059" stroke-width="1" stroke-opacity=".5">
+    <path d="M300 300h170M300 380h170"/>
+  </g>
+  <text x="400" y="180" text-anchor="middle" fill="#C5A059" font-family="Georgia, serif" font-size="34" letter-spacing="10">N</text>
+  <text x="400" y="500" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="20" letter-spacing="6" opacity=".7">MONOLITH</text>
+</svg>

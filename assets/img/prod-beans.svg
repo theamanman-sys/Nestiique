@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Whole bean coffee in a gold-lined bag">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3" stroke-linejoin="round">
+    <path d="M300 190h200v260H300z"/>
+    <path d="M300 190l24-40h152l24 40"/>
+  </g>
+  <path d="M300 236h200" stroke="#C5A059" stroke-width="1" stroke-opacity=".5"/>
+  <g fill="none" stroke="#C5A059" stroke-width="2.4">
+    <ellipse cx="368" cy="310" rx="30" ry="19" transform="rotate(-22 368 310)"/>
+    <path d="M344 328c18-4 30-14 42-30"/>
+    <ellipse cx="442" cy="366" rx="30" ry="19" transform="rotate(-22 442 366)"/>
+    <path d="M418 384c18-4 30-14 42-30"/>
+    <ellipse cx="400" cy="416" rx="30" ry="19" transform="rotate(-22 400 416)"/>
+  </g>
+  <text x="400" y="510" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="20" letter-spacing="6" opacity=".7">WHOLE BEAN</text>
+</svg>

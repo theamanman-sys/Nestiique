@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Jar of wild botanical honey">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3">
+    <rect x="316" y="196" width="168" height="264" rx="14"/>
+    <path d="M340 150h120v46H340z"/>
+    <path d="M316 268h168" stroke-opacity=".45"/>
+  </g>
+  <g fill="#C5A059" fill-opacity=".18" stroke="#C5A059" stroke-width="2">
+    <path d="M400 292l34 34-34 34-34-34z"/>
+    <path d="M400 372l22 22-22 22-22-22z" stroke-opacity=".6"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="20" letter-spacing="6" opacity=".7">WILD HONEY</text>
+</svg>

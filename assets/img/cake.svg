@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Three-tier bespoke celebration cake rendered in gold line">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3" stroke-linejoin="round">
+    <path d="M244 470h312v54H244z"/>
+    <path d="M282 398h236v72H282z"/>
+    <path d="M322 326h156v72H322z"/>
+    <path d="M362 254h76v72h-76z"/>
+  </g>
+  <g fill="#C5A059" fill-opacity=".2" stroke="#C5A059" stroke-width="2">
+    <circle cx="400" cy="222" r="12"/>
+  </g>
+  <path d="M400 210c0-26 14-42 30-52-4 22-12 40-30 52z" fill="#C5A059" fill-opacity=".55"/>
+  <g stroke="#C5A059" stroke-width="1.6" stroke-opacity=".6">
+    <path d="M362 286h76M322 358h156M282 430h236"/>
+    <path d="M344 254v-24M376 254v-30M424 254v-30M456 254v-24"/>
+  </g>
+  <text x="400" y="566" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="19" letter-spacing="7" opacity=".65">BESPOKE CONFECTIONERY</text>
+</svg>

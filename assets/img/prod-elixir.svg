@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Cold-pressed botanical elixir bottle">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3" stroke-linecap="square">
+    <path d="M356 140h88v40l38 54v212a22 22 0 0 1-22 22H340a22 22 0 0 1-22-22V234l38-54z"/>
+    <path d="M356 168h88"/>
+  </g>
+  <path d="M324 340h152v104a16 16 0 0 1-16 16H340a16 16 0 0 1-16-16z" fill="#C5A059" fill-opacity=".16"/>
+  <path d="M360 386c14-18 26 18 40 0s26 18 40 0" fill="none" stroke="#C5A059" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="400" y="520" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="20" letter-spacing="6" opacity=".7">BOTANICAL ELIXIR</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Glass carafe with a brass collar">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3" stroke-linecap="square">
+    <path d="M330 150h140v60l44 66v174a28 28 0 0 1-28 28H314a28 28 0 0 1-28-28V276l44-66z"/>
+    <path d="M330 186h140"/>
+    <path d="M286 350h228" stroke-opacity=".45"/>
+  </g>
+  <path d="M300 430h200l-18 44H318z" fill="#C5A059" fill-opacity=".14"/>
+  <text x="400" y="520" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="20" letter-spacing="6" opacity=".7">DAILY CARAFE</text>
+</svg>

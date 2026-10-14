@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Oval serving platter with gold rim">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3">
+    <ellipse cx="400" cy="310" rx="230" ry="120"/>
+    <ellipse cx="400" cy="310" rx="196" ry="94" stroke-opacity=".6"/>
+    <ellipse cx="400" cy="310" rx="120" ry="58" stroke-opacity=".35"/>
+  </g>
+  <circle cx="400" cy="310" r="8" fill="#C5A059"/>
+  <text x="400" y="500" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="20" letter-spacing="6" opacity=".7">SERVING PLATTER</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Espresso cup and saucer with a gold rim">
+  <rect width="800" height="600" fill="#0B0B0B"/>
+  <rect x="28" y="28" width="744" height="544" fill="none" stroke="#C5A059" stroke-opacity=".28" stroke-width="1"/>
+  <g fill="none" stroke="#C5A059" stroke-width="3" stroke-linecap="round">
+    <path d="M296 300h148v84a52 52 0 0 1-52 52h-44a52 52 0 0 1-52-52z"/>
+    <path d="M444 328h32a44 44 0 0 1 0 88h-32"/>
+    <ellipse cx="370" cy="300" rx="74" ry="22"/>
+    <ellipse cx="370" cy="486" rx="150" ry="30"/>
+  </g>
+  <path d="M296 300h148v26a52 52 0 0 1-26 20 74 74 0 0 1-96 0 52 52 0 0 1-26-20z" fill="#C5A059" fill-opacity=".16"/>
+  <g stroke="#C5A059" stroke-width="1.6" stroke-opacity=".5">
+    <path d="M370 258c-12-22 12-30 0-52"/>
+  </g>
+  <text x="400" y="556" text-anchor="middle" fill="#E6E1DC" font-family="Georgia, serif" font-size="19" letter-spacing="7" opacity=".65">SIGNATURE BLEND</text>
+</svg>
